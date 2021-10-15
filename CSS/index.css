@@ -1,0 +1,45 @@
+
+
+/*this is index css*/
+/*adding styles and colors*/
+
+body {
+    background-color: rgb(141, 236, 236);
+}
+
+h1, h2 {
+    font-family: cursive;
+    color: rgb(240, 61, 150);
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+h1{
+    font-size: 2rem;
+    text-shadow: 2px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: rgb(95, 9, 9);
+}
+
+.web-info {
+    color: rgb(65, 4, 63);
+}
+
+.journey-info {
+    font-style: italic;
+}
+
+ul, li {
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-decoration: none;
+    list-style-type: none;
+}

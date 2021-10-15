@@ -1,0 +1,28 @@
+
+/*this is the about css */
+/*have a different color other than blue for this background*/
+
+body {
+    background-color: #f3cdcd;
+}
+
+#main-nav {
+    font-variant-caps: all-small-caps;
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(78, 6, 94);
+    font-style: oblique;
+}
+
+h1 {
+    font-size: 2rem;
+    font-variant: normal;
+    text-shadow: 2px;
+}
+
+h2 {
+font-size: 1.5rem;
+font-variant: small-caps;
+}
