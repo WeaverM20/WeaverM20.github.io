@@ -4,12 +4,22 @@
 /*adding styles and colors*/
 
 body {
-    background-color: rgb(141, 236, 236);
+    background-color: rgb(46, 191, 248);
+}
+
+#main-nav {
+    font-variant: all-small-caps;
+    font-size: 1.5rem;
+}
+
+header {
+    background-image: url(/img/OBX_Beach_Sunrise.jpg);
+    background-repeat: no-repeat;
 }
 
 h1, h2 {
     font-family: cursive;
-    color: rgb(240, 61, 150);
+    color: rgb(226, 81, 154);
     font-style: italic;
     font-variant: small-caps;
 }
@@ -23,14 +33,19 @@ h2 {
     font-size: 1.5rem;
 }
 
+p::first-letter {
+    color: rgb(28, 102, 5);
+    font-size: 130%;
+    text-transform: uppercase;
+}
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
-    color: rgb(95, 9, 9);
+    color: rgb(10, 10, 10);
 }
 
 .web-info {
-    color: rgb(65, 4, 63);
+    color: rgb(207, 123, 12);
 }
 
 .journey-info {
@@ -42,4 +57,9 @@ ul, li {
     font-variant: small-caps;
     text-decoration: none;
     list-style-type: none;
+}
+
+a:hover {
+    color: rgb(238, 234, 17);
+    text-decoration-style: none;
 }

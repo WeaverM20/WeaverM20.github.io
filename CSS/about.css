@@ -3,11 +3,7 @@
 /*have a different color other than blue for this background*/
 
 body {
-    background-color: #f3cdcd;
-}
-
-#main-nav {
-    font-variant-caps: all-small-caps;
+    background-color: rgb(243, 205, 205);
 }
 
 h1, h2 {
