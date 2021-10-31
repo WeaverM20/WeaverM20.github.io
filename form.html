@@ -7,10 +7,11 @@
     <title>Dado Cafe Order Form</title>
 </head>
 
-    <body>
-    
+<body>
 
-        <nav>
+        <div id="wrapper">
+
+         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -19,14 +20,16 @@
             </ul>
         </nav>
         
-    <h1>Dado Cafe</h1>
-    <h2>Lunch Order Form</h2>
+        <main>
+            <h1>Dado Cafe</h1>
+            <h2>Lunch Order Form</h2>
 
-    <p class="lunch-specials">
-        Dado Tea Lunch Daily Specials <br>
-        $9.95 plus tax (extra charges listed in form) <br>
-        Includes lunch, snack, and drinks <br>
-    </p>
+            <p class="lunch-specials">
+            Dado Tea Lunch Daily Specials <br>
+            $9.95 plus tax (extra charges listed in form) <br>
+            Includes lunch, snack, and drinks <br>
+            </p>
+        </main>
 
     <table>
         <thead>
@@ -58,7 +61,7 @@
         </tbody>
     </table>
 
-    <form name="lunch-order" method="POST" data-netlify="true">
+    <form name="lunchOrder" method="POST" data-netlify="true">
 
         <fieldset>
             <legend>Customer Information</legend>
@@ -180,5 +183,7 @@
 
     </form>
 
-    </body>
+        </div>
+</body>
+
 </html>
