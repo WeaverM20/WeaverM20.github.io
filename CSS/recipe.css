@@ -11,27 +11,21 @@ html {
  /* end of CSS reset */
 
 body {
-  background-color: seagreen;
+  background-color: rgb(233, 243, 178);
 }
 
 img {
-  width: 530px;
+  background-color: rgb(104, 160, 233);
+  width: 400px;
   border-style: 20px ridge;
   padding: 30px;
   margin: 20px;
 }
 
-p {
-  width: 520px;
-  border-style: 30px dotted steelblue;
-  padding: 400px;
-  margin: 10px;
-}
-
-div {
-  background-color: lightcoral;
-  width: 540px;
-  border-style: 15px solid purple;
-  padding: 50px;
-  margin: 10px;
+iframe {
+  background-color: rgb(104, 160, 233);
+  border-radius: 50px;
+  padding: 30px;
+  width: 400px;
+  height: 250px;
 }
