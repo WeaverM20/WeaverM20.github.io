@@ -2,6 +2,21 @@
 
 /*this is index css*/
 /*adding styles and colors*/
+/* CSS reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*end of CSS reset*/
+/* google fonts 
+font-family: 'Red Hat Mono', monospace;
+*/
 
 body {
     background-color: rgb(46, 191, 248);
@@ -18,7 +33,7 @@ header {
 }
 
 h1, h2 {
-    font-family: cursive;
+    font-family: 'Red Hat Mono', monospace;
     color: rgb(226, 81, 154);
     font-style: italic;
     font-variant: small-caps;

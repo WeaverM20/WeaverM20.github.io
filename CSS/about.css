@@ -1,13 +1,31 @@
 
 /*this is the about css */
 /*have a different color other than blue for this background*/
+/*CSS reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*end of CSS reset*/
+/* google fonts 
+
+font-family: 'Kavoon', cursive;
+font-family: 'Neuton', serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
 
 body {
     background-color: rgb(243, 205, 205);
 }
 
 h1, h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Kavoon', cursive;
     color: rgb(78, 6, 94);
     font-style: oblique;
 }
@@ -21,4 +39,32 @@ h1 {
 h2 {
 font-size: 1.5rem;
 font-variant: small-caps;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 20px;
+}
+
+li {
+    font-family: 'Neuton', serif;
+    
+}
+
+.bio {
+    background-color: rgb(32, 178, 170);
+    max-width: 20%;
+    border-style: 20px solid;
+    padding: 30px;
+    margin: 20px;
+    float: left;
+}
+
+hr {
+    clear: both;
+}
+
+.faves {
+float: left;
+width: 200px;
 }
