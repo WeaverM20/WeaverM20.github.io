@@ -1,0 +1,109 @@
+/* CSS reset */
+
+html {
+    box-sizing : border-box ;
+  }
+
+* , * :before , * :after {
+    box-sizing : inherit ;
+}
+
+ /* end of CSS reset */
+
+body {
+  background-color: rgb(247, 195, 127);
+}
+
+img {
+  background-color: rgb(245, 136, 169);
+  width: 400px;
+  border-style: 20px dotted;
+  padding: 30px;
+  margin: 20px;
+}
+
+iframe {
+  background-color: rgb(104, 160, 233);
+  border-radius: 50px;
+  padding: 30px;
+  width: 400px;
+  height: 250px;
+}
+
+h1, h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2, h3 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+main {
+    width: 90%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: lightgray;
+    color: lightseagreen;
+}
+
+nav {
+    height: 50px;
+    background-color: ivory;
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-variant: all-petite-caps;
+    list-style-type: none;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    "header header header header header"
+    "prep image image image nutrition"
+    "ingredients ingredients ingredients directions directions"
+    "video video video video video";
+}
+
+.row1-head {
+    grid-area: header;
+    margin-bottom: 20px;
+}
+
+.row2-left {
+    grid-area: prep;
+    padding-left: 30px;
+}
+.row2-center {
+    grid-area: image;
+    justify-self: center;
+}
+
+.row2-right {
+    grid-area: nutrition;
+    padding-right: 60px;
+}
+
+.row3-left {
+    grid-area: ingredients;
+}
+
+.row3-right {
+    grid-area: directions;
+}
+
+.row4-left {
+    grid-area: video;
+    padding-bottom: 40px;
+}
