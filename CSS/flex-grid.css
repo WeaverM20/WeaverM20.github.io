@@ -11,11 +11,11 @@ html {
  /* end of CSS reset */
 
 body {
-  background-color: rgb(247, 195, 127);
+  background-color: rgb(71, 4, 92);
 }
 
 img {
-  background-color: rgb(245, 136, 169);
+  background-color: rgb(68, 18, 250);
   width: 400px;
   border-style: 20px dotted;
   padding: 30px;
@@ -23,7 +23,7 @@ img {
 }
 
 iframe {
-  background-color: rgb(104, 160, 233);
+  background-color: rgb(104, 123, 233);
   border-radius: 50px;
   padding: 30px;
   width: 400px;
@@ -49,13 +49,17 @@ main {
     padding: 10px 20px;
     border-radius: 10px;
     margin: 10px auto;
-    background-color: lightgray;
-    color: lightseagreen;
+    background-color: rgb(240, 14, 210);
+    color: rgb(228, 240, 237);
+}
+
+p {
+    font-size: 3rem;
 }
 
 nav {
     height: 50px;
-    background-color: ivory;
+    background-color: rgb(233, 245, 239);
     margin-bottom: 50px;
     font-size: 1.8rem;
 }
@@ -101,9 +105,44 @@ nav ul {
 
 .row3-right {
     grid-area: directions;
+    margin-left: 40px;
 }
 
 .row4-left {
     grid-area: video;
     padding-bottom: 40px;
+}
+
+@media (max-width: 600px;) {
+
+    h1 {
+        font-size: 1.8rem;
+        min-width: 25px;
+    }
+
+    h2, h3 {
+        font-size: 1.5rem;
+    }
+
+        .container {
+            display: block;
+            width: 100%;
+        }
+
+        img {
+            border: none;
+            max-width: 80%;
+        }
+
+        p {
+            font-size: 1.8rem;
+            width: 600px;
+            max-width: 50rem;
+        }
+
+        nav {
+            width: 50%;
+            padding-left: 50px;
+            color: aquamarine;
+        }
 }
