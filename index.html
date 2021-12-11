@@ -9,9 +9,11 @@
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital@1&display=swap" rel="stylesheet">
          <link rel="stylesheet" href="/CSS/index.css">
+
     </head>
 
     <body>
+        <p id="greet"></p>
         <nav id="main-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -53,5 +55,20 @@
             <a href="tel:+01-800-444-3567">Cell Phone</a><br></p>
         </footer>
             <p> <a href="#top">Top of Page</a></p>
+
+            <script>
+                var fname = prompt ("What is your first name");
+                var lname = prompt ("What is your last name");
+            console.log ("Welcome," + fname + " " + lname);
+    
+            document.getElementById("greet").innerHTML = "Welcome, " + fname + " " + lname;
+            
+            console.log("web design")
+            alert("This is my web design journey")
+
+            </script>
+
+            <script src="js/main.js"></script>
+
     </body>
 </html>
